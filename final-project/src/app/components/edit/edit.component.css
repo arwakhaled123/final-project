@@ -1,0 +1,183 @@
+.container{
+  display: flex;
+padding: var(--Space-16px, 16px);
+flex-direction: column;
+align-items: center;
+gap: 24px;
+align-self: stretch;
+border-radius: var(--Space-16px, 16px);
+background: #FFF;
+}
+.left-side{
+  display: flex;
+flex-direction: column;
+align-items: center;
+gap: var(--Space-16px, 16px);
+align-self: stretch;
+}
+.pro-img{
+  width: 226px;
+height: 226px;
+border-radius: 159.5px;
+border: 4.5px solid var(--Button-main-d, #5A2006);
+background: var(--Avatar-Male-Jackson, url('/profile/Profile Image.png') lightgray 50% / cover no-repeat);
+
+}
+
+.submit-btn {
+  display: flex;
+  padding: 13px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+
+  border-radius: 16px;
+  background: var(--Button-main-d, #5A2006);
+  border: none;
+
+  color: var(--Button-FontColor-active, #FFF);
+  text-align: center;
+
+  /* Body/Bold */
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  /* 22.4px */
+  letter-spacing: 0.07px;
+}
+.info{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+align-self: stretch;
+}
+.info-body{
+  display: flex;
+  height: 34px;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.info-text{
+  flex: 1 0 0;
+  color: var(--BG-Black, #000);
+
+/* Body Large/Bold */
+font-family: "Bricolage Grotesque";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 33.6px */
+letter-spacing: 0.12px;
+}
+.any{
+  width: 24px;
+height: 24px;
+}
+.text{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 4px;
+align-self: stretch;
+}
+.texts{
+  align-self: stretch;
+  color: var(--Button-FontColor-disabled, #797979);
+
+/* Body/Medium */
+font-family: "Bricolage Grotesque";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 22.4px */
+letter-spacing: 0.14px;
+}
+
+.switches{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+align-self: stretch;
+}
+.switch{
+  display: flex;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+}
+.switch-text{
+  flex: 1 0 0;
+  color: var(--BG-Black, #000);
+
+/* Body/Bold */
+font-family: "Bricolage Grotesque";
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 160%; /* 22.4px */
+letter-spacing: 0.07px;
+}
+.switchOfswitch{
+  display: flex;
+width: 45.5px;
+padding: 2.5px;
+align-items: center;
+gap: 2.5px;
+border-radius: 12px;
+background: var(--Button-main-disabled, #E0E0E0);
+}
+#SwitchDefault{
+  width: 19px;
+  height: 19px;
+  flex-shrink: 0;
+  border-radius: 12px;
+background: var(--Button-FontColor-disabled, #797979);
+}
+.switchOfswitch2{
+  display: flex;
+width: 45.5px;
+padding: 2.5px;
+justify-content: flex-end;
+align-items: center;
+gap: 2.5px;
+border-radius: 12px;
+background: var(--Button-main-h, #C17A46);
+}
+#SwitchChecked{
+  width: 19px;
+height: 19px;
+flex-shrink: 0;
+border-radius: 12px;
+background: var(--Button-main-d, #5A2006);
+}
+
+/* General buttons' styling ..................................................................... */
+
+button:hover {
+  display: inline-flex;
+  padding: 15px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: var(--Space-16px, 16px);
+  background: var(--Button-main-h, #C17A46);
+}
+
+button:active {
+  display: inline-flex;
+  padding: 15px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: var(--Space-16px, 16px);
+  background: var(--Button-main-p, #491302);
+}

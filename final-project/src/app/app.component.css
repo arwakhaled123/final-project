@@ -1,0 +1,6 @@
+.cont{
+  /* background-image: url(/profile/books.png); */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), url(/profile/books.png) lightgray 50% / cover no-repeat;
+      flex: 1 0 0;
+      align-self: stretch;
+}
